@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Ui.Settings">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        android:orientation="vertical">
+
+
+
+
+<!--        <pl.droidsonroids.gif.GifImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/loading"-->
+<!--            tools:ignore="MissingClass,MissingConstraints" />-->
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ConstraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            style="@style/Base.CardView"
+            android:layout_gravity="center_horizontal">
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivBackground"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:src="@drawable/photoofme"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/change_im"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorAccent"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/editicon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/ivBackground"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp">
+
+        <ImageView
+            android:id="@+id/icon_ar0"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/personicon">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/nameOfClient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/icon_ar0"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Ahmed Alamin"
+            android:textColor="#202020"
+            android:textSize="18sp"></TextView>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/editicon">
+
+        </ImageView>
+    </RelativeLayout>
+
+
+        <RelativeLayout
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_below="@id/nameOfClient">
+
+        <ImageView
+            android:id="@+id/icon_ar2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/locationicon">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/defaultAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/icon_ar2"
+            android:fontFamily="@font/nunito_semibold"
+
+            android:text="Default Adress\nEgypt - Giza - Alharm street"
+            android:textColor="#202020"
+            android:textSize="18sp"></TextView>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/editlocation">
+
+        </ImageView>
+    </RelativeLayout>
+
+        <RelativeLayout
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_below="@id/address">
+
+        <ImageView
+            android:id="@+id/icon_ar3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/phoneicon">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/NumberOfClient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/icon_ar3"
+            android:fontFamily="@font/nunito_semibold"
+
+            android:text="+201143756046"
+            android:textColor="#202020"
+            android:textSize="18sp"></TextView>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/editicon">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/credit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_below="@id/phone">
+
+        <ImageView
+            android:id="@+id/icon_ar4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/crediticon">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/creditofclient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/icon_ar4"
+            android:text="Credit Not verified"
+            android:fontFamily="@font/nunito_semibold"
+
+            android:textColor="#202020"
+            android:textSize="18sp"></TextView>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_dark">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_below="@id/credit">
+
+        <ImageView
+            android:id="@+id/icon_ar5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/typeofpayments">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/typeofpay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/icon_ar5"
+            android:fontFamily="@font/nunito_semibold"
+
+            android:text="Select Type of Pay"
+            android:textColor="#202020"
+            android:textSize="18sp"></TextView>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_dark">
+
+        </ImageView>
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:layout_below="@id/credit">
+
+            <ImageView
+                android:id="@+id/icon_ar6"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/logout">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@id/icon_ar6"
+                android:text="Sign out"
+                android:fontFamily="@font/nunito_semibold"
+
+                android:textColor="#202020"
+                android:textSize="18sp"></TextView>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/arrow_dark">
+
+            </ImageView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

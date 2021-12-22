@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Ship99</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">في السريع</string>
+    <string name="slide_1_desc">أسهل وأمن طريقة لشحن البضائع من مكان لمكان داخل مصر  بنظام الدفعي المقدم</string>
+
+    <string name="slide_2_title">أسرع طريقة للشحن</string>
+    <string name="slide_2_desc">اطلب مندوب لنقل بضائعك الان من مكان لمكان بسهوله ويسر مع وجود خاصية التتبع للطرود لمعرفة مكانها بالظبط</string>
+
+    <string name="slide_3_title">افضل الاسعار والخصومات</string>
+    <string name="slide_3_desc">افضل الاسعار علي كل خدمات الشحن من كافة الاماكن</string>
+
+    <string name="slide_4_title">تغطية واسعه</string>
+    <string name="slide_4_desc">احجز الان ليصلك مندوبنا في اسرع وقت ممكن وتمتع بخاصية التتبع للشحنه من تليفونك</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_home">Home</string>
+    <string name="title_favourites">Favourite</string>
+    <string name="title_search">Search</string>
+    <string name="title_profile">Profile</string>
+    <string name="Request">Request</string>
+    <string name="Track">Track</string>
+    <string name="History">History</string>
+    <string name="Profile">Profile</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="your_hint_text">Please Select a place</string>
+    <string name="loading">Loading...</string>
+
+
+    <string name="empty_field">All fields must be filled</string>
+    <string name="error_format_price">Price must be a number</string>
+    <string name="error_format_quantity">Quantity must be a integer number</string>
+    <string name="error_format_weight">Wrong weight</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="delete_image">Delete Image</string>
+    <string name="failure">can\'t load Image</string>
+    <string name="saved">Sent successfuly</string>
+    <string name="selcetImage">Please Selcet image of your product</string>
+
+    <!--- Internet dialog -->
+    <string name="internet_title">Enable Internet Connection</string>
+    <string name="internet_message">To use this application you must be connected to the Internet</string>
+    <string name="interner_confirm">Data settings</string>
+    <string name="time">Time</string>
+    <string name="status">Status:</string>
+    <string name="button_reservation">Reservation</string>
+    <string name="orderNumber">Order Num</string>
+
+</resources>

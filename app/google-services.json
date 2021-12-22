@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "809531201577",
+    "project_id": "ship99-8f209",
+    "storage_bucket": "ship99-8f209.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809531201577:android:589a9036c83103a303e438",
+        "android_client_info": {
+          "package_name": "com.Ship99_Official.ship99"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809531201577-ullpaap954o3kghvk255a32p8sp449oo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Ship99_Official.ship99",
+            "certificate_hash": "d8b884d926d5d37cf602898009eacbef186dd44c"
+          }
+        },
+        {
+          "client_id": "809531201577-t38q0gnaj3n3e7q6p6mudigd05m9pcpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzBmIPrv6PUjiybn8Pk9_QezOZdAi7vmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809531201577-t38q0gnaj3n3e7q6p6mudigd05m9pcpb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

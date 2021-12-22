@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent">
+
+   <TextView
+       android:id="@+id/loloText"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Welcom"
+       android:fontFamily="@font/nunito_semibold"
+       android:textStyle="bold"
+       android:textColor="@color/introrTextColor"
+       android:layout_centerInParent="true"
+       android:textSize="35sp"
+       />
+</RelativeLayout>
